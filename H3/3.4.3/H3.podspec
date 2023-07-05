@@ -11,8 +11,8 @@ iOS wrapper over Uber H3 from https://github.com/uber/h3 that can we used with S
 
   spec.source       = { :git => "https://github.com/long1eu/h3-ios.git", :tag => "v#{spec.version}" }
 
-  spec.source_files = 'Classes/H3/src/h3lib/**/*'
-  spec.public_header_files = 'Classes/H3/src/h3lib/include/h3api.h'
+  spec.source_files = 'h3lib/**/*'
+  spec.public_header_files = 'h3lib/include/h3api.h'
   spec.ios.deployment_target = '8.0'
   spec.static_framework = true
 end
